@@ -91,7 +91,7 @@ window.onload=getCSS();
      			
 <li>
 	 
-	<a  href="/post/about"> 关于(test01,修改01)</a></li>
+	<a  href="/post/about"> 关于</a></li>
 	
     
 
@@ -213,7 +213,7 @@ jQuery(document).ready(function($) {
         $this.addClass('loading').text('正在努力加载'); //给a标签加载一个loading的class属性，用来添加加载效果
         var href = $this.attr('href'); //获取下一页的链接地址
         if (href != undefined) { //如果地址存在
-            $.ajax({ //发起ajax请求  master commit
+            $.ajax({ //发起ajax请求
                 url: href,
                 //请求的地址就是下一页的链接
                 type: 'get',
